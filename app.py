@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-INCEPTION_API_KEY = os.getenv("INCEPTION_API_KEY")
+INCEPTION_API_KEY = os.getenv("sk_685262549553b17d8623d1463774131a")
 INCEPTION_API_URL = os.getenv("INCEPTION_API_URL", "https://api.inception.ai/v1/chat")
 
 @app.route("/", methods=["GET"])
